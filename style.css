@@ -1,0 +1,63 @@
+#profile-pic {
+  width: 100px;
+}
+
+body {
+  background-color:#FFF7D1;
+  font-family: "Comic Neue", cursive;
+  color:#563A9C;
+  font-size:12px;
+  line-height:18px;
+}
+
+h1,h2,h3 {
+  color: #6A42C2;
+  line-height:30px;
+}
+
+a {
+  color:#563A9C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8B5DFF;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fffbe5;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
